@@ -7,14 +7,35 @@
 
 body {
     font-family: "Dokdo", system-ui;
+    margin: 0;
+}
+
+#logo {
+    position: absolute;
+    left: 80px;
 }
 
 .container {
-    display: inline-flex;
+    width: 100vw;
 }
 
+.menus {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ebebeb;
+    align-items: center;
+    height: 70px;
+}
 
-.menu {
-    text-align: center;
-    font-size: 30px;
+.menus button {
+    border: none;
+    background: none;
+    margin: 5px;
+    font-weight: bolder;
+    color: navy;
+}
+
+.menus button:hover {
+    color: blue;
 }
