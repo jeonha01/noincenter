@@ -12,11 +12,12 @@ body {
 
 #logo {
     position: absolute;
-    left: 80px;
+    left: 70px;
 }
 
 .container {
     width: 100vw;
+    background-color: skyblue;
 }
 
 .menus {
@@ -33,9 +34,16 @@ body {
     background: none;
     margin: 5px;
     font-weight: bolder;
-    color: navy;
+    color: white;
+    cursor: pointer;
 }
 
 .menus button:hover {
     color: blue;
+    transition: 1s ease-out;
+}
+
+#magnifying {
+    position: absolute;
+    right: 70px;
 }
